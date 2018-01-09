@@ -1,0 +1,15 @@
+.home main > .card {
+  margin-bottom: 20px;
+}
+
+.home main .form-group {
+  width: 100%;
+}
+
+.home main .text-muted {
+  margin-left: 20px;
+}
+
+.home main .btn.btn-success.btn-lg {
+  margin-top: 20px;
+}

@@ -1,0 +1,44 @@
+.visualization:not(.visualization--active) {
+  display: none;
+}
+
+.visualization .visualization__render {
+  width: 500px;
+  min-height: 500px;
+  margin: 0 auto;
+}
+
+.visualization .node-tooltip {
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.75);
+  border-radius: 4px;
+  color: #fff;
+  padding: 10px 20px;
+  position: absolute;
+  text-align: center;
+  left: 50%;
+  bottom: 0;
+  transform: translate(-50%, -20px);
+}
+
+.visualization .node-tooltip > .badge {
+  margin-left: 5px;
+}
+
+.visualization label:not(:first-child) {
+  margin-left: 10px;
+}
+
+.visualization select, .visualization input {
+  margin-left: 5px;
+  height: calc(1.5rem + 2px) !important;
+}
+
+.visualization input[type="number"] {
+  padding: 2px 5px;
+  width: 55px;
+}
+
+.visualization form button {
+  margin-left: 10px;
+}

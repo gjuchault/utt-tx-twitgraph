@@ -1,0 +1,17 @@
+#app {
+  margin: 0 auto;
+  max-width: 750px;
+}
+
+header {
+  margin: 10px 0;
+  padding: 10px 0;
+}
+
+header > h1 {
+  text-align: center;
+}
+
+button {
+  cursor: pointer;
+}

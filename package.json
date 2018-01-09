@@ -1,0 +1,50 @@
+{
+  "name": "twit-graph",
+  "version": "3.0.0",
+  "description": "Twitter Graph Application",
+  "main": "server/index.js",
+  "repository": "https://github.com/BabigaBirregah/TwitterSocialGraphCollector/",
+  "author": "Gabriel Juchault <gabriel.juchault@mgmail.com>",
+  "license": "UNLICENSED",
+  "scripts": {
+    "start": "node server",
+    "dev": "cross-env NODE_ENV=development DEBUG=twit-graph:* node server",
+    "build": "webpack"
+  },
+  "dependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-react": "^6.24.1",
+    "body-parser": "^1.18.2",
+    "bootstrap": "4.0.0-beta",
+    "cross-env": "^5.0.5",
+    "css-loader": "^0.28.7",
+    "cytoscape": "^3.2.6",
+    "cytoscape-cose-bilkent": "^3.0.2",
+    "debug": "^3.1.0",
+    "express": "^4.15.4",
+    "html-webpack-plugin": "^2.30.1",
+    "lodash.clonedeep": "^4.5.0",
+    "lodash.intersection": "^4.4.0",
+    "neo4j-driver": "^1.4.1",
+    "node-dijkstra": "^2.5.0",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-redux": "^5.0.6",
+    "react-transition-group": "^2.2.0",
+    "reactstrap": "^4.8.0",
+    "redux": "^3.7.2",
+    "serve-static": "^1.12.6",
+    "socket.io": "^2.0.3",
+    "socket.io-client": "^2.0.3",
+    "style-loader": "^0.18.2",
+    "twitter": "^1.7.1",
+    "webpack": "^3.6.0",
+    "webpack-dev-middleware": "^1.12.0",
+    "worker-loader": "^1.1.0"
+  },
+  "devDependencies": {
+    "redux-logger": "^3.0.6"
+  }
+}
